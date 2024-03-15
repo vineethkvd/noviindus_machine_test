@@ -38,6 +38,8 @@ dependencies:
   http:
   get: ^4.6.6
   fluttertoast:
+  shared_preferences:
+  get_storage:
 dev_dependencies:
   flutter_test:
     sdk: flutter

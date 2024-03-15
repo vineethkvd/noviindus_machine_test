@@ -11,7 +11,7 @@ class AppRoute {
             transition: Transition.leftToRightWithFade,
             transitionDuration: const Duration(microseconds: 250)),
         GetPage(
-            name: RouteName.splashScreen,
+            name: RouteName.loginView,
             page: () => LoginScreen(),
             transition: Transition.leftToRightWithFade,
             transitionDuration: const Duration(microseconds: 250))

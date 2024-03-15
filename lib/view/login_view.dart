@@ -36,7 +36,7 @@ class LoginScreen extends StatelessWidget {
                       border: OutlineInputBorder(),
                     ),
                   )),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Obx(() => TextFormField(
                     validator: (value) {
                       if (value == null || value.isEmpty) {

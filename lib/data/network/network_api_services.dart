@@ -58,7 +58,6 @@ class NetworkApiServices extends BaseApiService {
         body: json.encode(data),
         headers: {
           'Content-Type': 'application/json',
-          // Add other headers if needed
         },
       ).timeout(const Duration(seconds: 10));
 
